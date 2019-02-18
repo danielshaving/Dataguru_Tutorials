@@ -1,5 +1,5 @@
 
-# This is an on-going building model for object detection with slides and source coding.
+# This is an on-going building model for the tutorials of object detection with my slides and codings.
 
 
 * Tutorial 1
@@ -47,4 +47,4 @@
 
 ## tf-CIFAR-10
 ![Pic](example/CIFAR10_2.jpeg)
-![Pic](example/CIFAR10_Tensorboard.jpeg)
+![Pic](example/CIFAR.gif)
