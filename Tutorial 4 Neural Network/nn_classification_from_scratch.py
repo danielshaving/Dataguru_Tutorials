@@ -19,15 +19,10 @@ mu_vec2 = mu_vec2.reshape(1,2).T
 
 
 
-
-# plt.scatter(x3_samples[:,0],x3_samples[:,1], c= 'red', marker='*')
-
 X = np.concatenate((x1_samples,
                     x2_samples,
-                    # x3_samples
                     ), axis = 0)
 Y = np.array([0]*data_scale + [1]*data_scale
-                    # + [1]*100
                     )
 
 
@@ -136,7 +131,7 @@ def build_model (nn_hidden, number_of_passes = 1, print_loss = False):
             showstring = 'iteration:'+str(i)+',loss:'+str(calulate_loss(model))
             print(showstring)
 
-    unlinearplotallpoints(model)
+    #unlinearplotallpoints(model)
     plt.text(-6, -3, showstring)
     plt.show()
 
