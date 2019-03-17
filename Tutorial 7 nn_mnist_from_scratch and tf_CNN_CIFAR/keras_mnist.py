@@ -33,16 +33,6 @@ my_model.add(keras.layers.Dense(512))
 my_model.add(keras.layers.Activation('relu'))
 my_model.add(keras.layers.Dropout(0.2))
 
-#hidden layer2
-my_model.add(keras.layers.Dense(512))
-my_model.add(keras.layers.Activation('relu'))
-my_model.add(keras.layers.Dropout(0.2))
-
-#hidden layer2
-my_model.add(keras.layers.Dense(512))
-my_model.add(keras.layers.Activation('relu'))
-my_model.add(keras.layers.Dropout(0.2))
-
 
 #output layer
 my_model.add(keras.layers.Dense(10))
